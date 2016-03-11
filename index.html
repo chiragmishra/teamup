@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" />	
+	<script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/base.js"></script>
+	<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<meta name="author" content="Chirag mishra" />
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	
+	<title>Help</title>
+</head>
+
+<body>
+	<div class="row-fluid mainContainer">
+		<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 signinBox">
+			
+			<div class="signinContainer">
+				<div class="signinHead">
+					<h4>LOGIN</h4>
+				</div>
+
+				<div class="signinBody">
+					<h5>Sign In</h5>
+					<form action="">
+						<input type="email" name="email" id="email" placeholder="Email ID">
+						<input type="password" name="password" id="password" placeholder="password">
+						<button type="submit" id="submitLogin" class="btn">Login</button>
+						<input type="checkbox" id="remember" name="remember" value="remember">
+						<label for="remember">Remember me</label>
+					</form>	
+					<a href="#">Forgot password?</a>
+					<hr>
+					<div class="socialMediaLogin">
+						<div id="fb-root"></div>
+						<script>(function(d, s, id) {
+							var js, fjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(id)) return;
+							js = d.createElement(s); js.id = id;
+							js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=743331759038636";
+							fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));</script>
+						<div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="false"></div>
+
+
+					</div>
+
+					<div class="signUpSpace">
+						<p>Sign up for a new account</p>
+						<button class="btn btn-success" id="signup">Sign Up</button>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="signupContainer">
+				<div class="signinHead">
+					<h4>SIGNUP</h4>
+				</div>
+				<div class="signinBody">
+					<h5>Signup For a new account</h5>
+					<form action="">
+						<input type="email" name="email" id="email" placeholder="Email">
+						<input type="password" name="password" id="password" placeholder="password">
+						<input type="number" name="number" id="number" placeholder="Mobile number">
+						<button type="submit" id="submitSignup" class="btn btn-success">Sign up</button>
+					</form>	
+				</div>
+			</div>
+
+		</div>
+	</div>
+	
+</body>
+
+</html>
