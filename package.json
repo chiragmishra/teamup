@@ -1,0 +1,19 @@
+{
+  "name": "teamup",
+  "version": "1.0.0",
+  "description": "### Development 1. Instal Node.js [https://nodejs.org/en/download/package-manager/] 2. Install dependencies `npm install`",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiragmishra/teamup.git"
+  },
+  "author": "Tushar Agarwal <niftytushar@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiragmishra/teamup/issues"
+  },
+  "homepage": "https://github.com/chiragmishra/teamup#readme"
+}
